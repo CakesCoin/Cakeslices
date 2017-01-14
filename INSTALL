@@ -1,0 +1,9 @@
+Building Cakeslices
+
+See doc/readme-qt.rst for instructions on building Cakeslices QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Cakeslices.
+
+See doc/build-*.txt for instructions on building Cakesliced,
+the intended-for-services, no-graphical-interface, reference
+implementation of Cakeslices.
