@@ -94,6 +94,8 @@ block.GetHash = 000009382cda8c797a597f8d08cbfbaae134d34bc072c4e3a1b0fa68f5ca660e
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
+        vSeeds.push_back(CDNSSeedData("Seed01",  "199.26.184.214"));
+
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
         nTargetSpacing = 240; // Initially ~220 Sec during PoW
